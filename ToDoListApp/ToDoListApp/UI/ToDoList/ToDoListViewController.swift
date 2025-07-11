@@ -16,6 +16,7 @@ class ToDoListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        titleLabel.font = UIFont.TDTitle
 
     }
 }

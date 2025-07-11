@@ -20,41 +20,35 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdJ-oV-opC">
-                    <rect key="frame" x="175" y="416" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqs-Qj-DMH">
                     <rect key="frame" x="333" y="143" width="40" height="40"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="6UF-XH-WxX"/>
-                        <constraint firstAttribute="width" constant="40" id="mLN-q2-W3Z"/>
+                        <constraint firstAttribute="height" constant="40" id="Ibo-TU-MuA"/>
+                        <constraint firstAttribute="width" constant="40" id="yKH-kY-cC9"/>
                     </constraints>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" image="folder.badge.plus" catalog="system"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TO DO LIST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZe-MF-hxh">
-                    <rect key="frame" x="10" y="186" width="274" height="83"/>
+                    <rect key="frame" x="10" y="186" width="183.66666666666666" height="43"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="83" id="3rd-sG-zn8"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="36"/>
                     <color key="textColor" name="AccentColor"/>
                     <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="UO7-vH-OYo">
+                    <rect key="frame" x="0.0" y="269" width="393" height="515"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="Eqs-Qj-DMH" secondAttribute="trailing" constant="20" id="KhU-oR-KdN"/>
-                <constraint firstItem="GZe-MF-hxh" firstAttribute="top" secondItem="Eqs-Qj-DMH" secondAttribute="bottom" constant="3" id="O3i-iB-84j"/>
-                <constraint firstItem="Eqs-Qj-DMH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="25" id="d7j-Yy-05e"/>
-                <constraint firstItem="GZe-MF-hxh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="mNd-sO-eqh"/>
-                <constraint firstItem="Eqs-Qj-DMH" firstAttribute="leading" secondItem="GZe-MF-hxh" secondAttribute="trailing" constant="49" id="q7r-ry-0PU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Eqs-Qj-DMH" secondAttribute="trailing" constant="20" id="6kA-ox-gT5"/>
+                <constraint firstItem="GZe-MF-hxh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="p0m-T0-b1C"/>
+                <constraint firstItem="GZe-MF-hxh" firstAttribute="top" secondItem="Eqs-Qj-DMH" secondAttribute="bottom" constant="3" id="sqI-D2-BCd"/>
+                <constraint firstItem="Eqs-Qj-DMH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="25" id="tLH-oR-vre"/>
             </constraints>
             <point key="canvasLocation" x="-16.030534351145036" y="-12.67605633802817"/>
         </view>
