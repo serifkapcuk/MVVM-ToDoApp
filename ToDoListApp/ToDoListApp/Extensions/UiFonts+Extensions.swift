@@ -11,4 +11,7 @@ import UIKit
 extension UIFont {
     
     static var TDTitle : UIFont? = UIFont(name: Constans.Font.Arial, size: 35)
+    
+    static var TDBody: UIFont? = UIFont(name: Constans.Font.Arial, size: 20)
+
 }
